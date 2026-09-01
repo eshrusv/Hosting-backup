@@ -11,5 +11,6 @@
     "commands": 0,
     "plan_upgrades": 0,
     "payments_received": 0
-  }
+  },
+  "approval_notify_admins": true
 }
