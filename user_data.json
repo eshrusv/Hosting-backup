@@ -32,7 +32,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-01T17:45:38.221708+00:00",
-      "last_seen": "2026-09-01T18:04:57.194773+00:00",
+      "last_seen": "2026-09-01T18:08:43.138325+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -47,7 +47,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 2,
-        "logins": 26
+        "logins": 48
       }
     },
     "7679183468": {
@@ -99,6 +99,57 @@
         "bots_uploaded": 0,
         "logins": 5
       }
+    },
+    "8956624925": {
+      "_id": 8956624925,
+      "name": "⏤͟͞꫟┊",
+      "username": "SWXFTxAPX",
+      "plan": "pro",
+      "plan_expires": "2026-09-03T18:08:40.158237+00:00",
+      "joined": "2026-09-01T18:06:38.869738+00:00",
+      "last_seen": "2026-09-01T18:09:20.295943+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-01T18:06:55.822564+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": true,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 15
+      },
+      "last_expiry_warn": 1
+    },
+    "8703047687": {
+      "_id": 8703047687,
+      "name": "Broken ~ 3",
+      "username": "TgknownBroken",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-01T18:07:24.351419+00:00",
+      "last_seen": "2026-09-01T18:08:07.726273+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-01T18:08:03.214023+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 2
+      }
     }
   },
   "bots": {
@@ -141,7 +192,9 @@
           "rel_path": "SALAH.py"
         }
       ],
-      "env": {},
+      "env": {
+        "BOT_TOKEN": "AAGGwesMonOGj8-0HzBQcLTlaUw8nY7EgZM"
+      },
       "status": "running",
       "cron": {},
       "security_scan": {
@@ -195,6 +248,30 @@
       "uid": 8163090013,
       "action": "bot_download",
       "detail": "bot=5e460229b8f9ac91"
+    },
+    {
+      "ts": "2026-09-01T18:06:56.540177+00:00",
+      "uid": 8956624925,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-01T18:08:03.870646+00:00",
+      "uid": 8703047687,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-01T18:08:08.138478+00:00",
+      "uid": 8163090013,
+      "action": "env_set",
+      "detail": "bot=5e460229b8f9ac91 key=BOT_TOKEN"
+    },
+    {
+      "ts": "2026-09-01T18:08:40.547930+00:00",
+      "uid": 0,
+      "action": "trial_grant",
+      "detail": "uid=8956624925"
     }
   ],
   "coupons": {},
