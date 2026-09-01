@@ -12,5 +12,18 @@
     "plan_upgrades": 0,
     "payments_received": 0
   },
-  "approval_notify_admins": true
+  "approval_notify_admins": true,
+  "pending_uploads": {
+    "9d277fb54ab90a3a": {
+      "user_id": 8163090013,
+      "user_name": "𝑵𝒐𝒄𝒕𝒊𝒔",
+      "user_username": "GRRRRRQ",
+      "chat_id": 8163090013,
+      "msg_id": 259,
+      "file_name": "SALAH.py",
+      "file_count": 1,
+      "size": 11074,
+      "ts": "2026-09-01T17:54:11.509551+00:00"
+    }
+  }
 }
