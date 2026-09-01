@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-01T17:32:10.383782+00:00",
-      "last_seen": "2026-09-01T17:44:19.550217+00:00",
+      "last_seen": "2026-09-01T17:46:42.145397+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,14 +22,83 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 75
+        "logins": 81
+      }
+    },
+    "8163090013": {
+      "_id": 8163090013,
+      "name": "𝑵𝒐𝒄𝒕𝒊𝒔",
+      "username": "GRRRRRQ",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-01T17:45:38.221708+00:00",
+      "last_seen": "2026-09-01T17:46:08.616816+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-01T17:45:53.073556+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 3
+      }
+    },
+    "7679183468": {
+      "_id": 7679183468,
+      "name": "ᴄʜɪᴇғ ʙᴀɴᴅɪᴛ ᵁᶜᴴ ᴏʟᴀɪᴅᴇ ⁰⁰¹ 👨‍🦯",
+      "username": "LORD_S1LENCE",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-01T17:47:51.945411+00:00",
+      "last_seen": "2026-09-01T17:47:51.945429+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-01T17:48:05.504705+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 1
       }
     }
   },
   "bots": {},
   "payments": [],
   "admins": {},
-  "audit": [],
+  "audit": [
+    {
+      "ts": "2026-09-01T17:45:54.236105+00:00",
+      "uid": 8163090013,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-01T17:46:38.381273+00:00",
+      "uid": 8189708860,
+      "action": "export_data",
+      "detail": "file=simran_export_20260901_174638.zip"
+    },
+    {
+      "ts": "2026-09-01T17:48:06.177163+00:00",
+      "uid": 7679183468,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
+    }
+  ],
   "coupons": {},
   "tickets": {},
   "scheduled_broadcasts": [],
