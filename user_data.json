@@ -1,0 +1,39 @@
+{
+  "users": {
+    "8189708860": {
+      "_id": 8189708860,
+      "name": "𓆩✿𓆪 ᴇsʜ ✧",
+      "username": "iam_eshh",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-01T17:32:10.383782+00:00",
+      "last_seen": "2026-09-01T17:34:31.013511+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": false,
+      "verified_at": null,
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 11
+      }
+    }
+  },
+  "bots": {},
+  "payments": [],
+  "admins": {},
+  "audit": [],
+  "coupons": {},
+  "tickets": {},
+  "scheduled_broadcasts": [],
+  "notes": {},
+  "rate_violations": {},
+  "scan_log": []
+}
