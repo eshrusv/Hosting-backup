@@ -309,7 +309,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-02T14:52:50.691771+00:00",
-      "last_seen": "2026-09-02T14:54:32.226894+00:00",
+      "last_seen": "2026-09-02T15:18:22.630463+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -324,7 +324,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 2,
-        "logins": 6
+        "logins": 17
       }
     }
   },
@@ -410,31 +410,6 @@
       "env": {},
       "status": "pending_approval",
       "cron": {},
-      "gh_synced_at": 0,
-      "approval_status": "pending"
-    },
-    "3ae0c74fd637dcdf": {
-      "_id": "3ae0c74fd637dcdf",
-      "owner": 6627564129,
-      "name": "IMG-20260902-WA0012",
-      "dir": "/root/h/sandbox/6627564129_3ae0c74fd637dcdf",
-      "created": "2026-09-02T14:53:14.050748+00:00",
-      "enc_files": [
-        {
-          "key_id": "uLNejdGWNUmxsFLM1ecIYQ",
-          "enc_path": "/root/h/storage/encfiles/6627564129/1788360794_IMG-20260902-WA0012_jpg.enc",
-          "filename": "IMG-20260902-WA0012.jpg",
-          "rel_path": "IMG-20260902-WA0012.jpg"
-        }
-      ],
-      "env": {},
-      "status": "pending_approval",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'img-20260902-wa0012.jpg' allow nahi hai."
-      },
       "gh_synced_at": 0,
       "approval_status": "pending"
     },
@@ -647,6 +622,18 @@
       "uid": 6627564129,
       "action": "captcha_pass",
       "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-02T15:17:52.064718+00:00",
+      "uid": 6627564129,
+      "action": "bot_delete",
+      "detail": "bot=3ae0c74fd637dcdf"
+    },
+    {
+      "ts": "2026-09-02T15:18:16.328346+00:00",
+      "uid": 6627564129,
+      "action": "bot_download",
+      "detail": "bot=6c46f625a6a1f6ea"
     }
   ],
   "coupons": {},
