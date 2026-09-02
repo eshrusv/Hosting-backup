@@ -46,28 +46,6 @@
       "file_count": 1,
       "size": 201424,
       "ts": "2026-09-02T14:53:15.980999+00:00"
-    },
-    "6c46f625a6a1f6ea": {
-      "user_id": 6627564129,
-      "user_name": "Luffy",
-      "user_username": "LuffyOnePeice0",
-      "chat_id": 6627564129,
-      "msg_id": 481,
-      "file_name": "mainn.py",
-      "file_count": 1,
-      "size": 398515,
-      "ts": "2026-09-02T14:54:34.427205+00:00"
-    },
-    "76d530172f1b1914": {
-      "user_id": 6708197897,
-      "user_name": "𝙕𝙐𝙇𝙌𝘼𝙍𝐁𝐑𝐎 ⁿᵒᵒᵇ",
-      "user_username": "ZulqarPRO",
-      "chat_id": 6708197897,
-      "msg_id": 519,
-      "file_name": "bot-1.py",
-      "file_count": 1,
-      "size": 6680,
-      "ts": "2026-09-02T16:14:53.046990+00:00"
     }
   },
   "github_repo": "Hi"
