@@ -309,7 +309,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-02T14:52:50.691771+00:00",
-      "last_seen": "2026-09-02T14:53:12.989911+00:00",
+      "last_seen": "2026-09-02T14:54:32.226894+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -323,8 +323,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 1,
-        "logins": 4
+        "bots_uploaded": 2,
+        "logins": 6
       }
     }
   },
@@ -435,6 +435,26 @@
         "risk_score": 30,
         "summary": "File type 'img-20260902-wa0012.jpg' allow nahi hai."
       },
+      "gh_synced_at": 0,
+      "approval_status": "pending"
+    },
+    "6c46f625a6a1f6ea": {
+      "_id": "6c46f625a6a1f6ea",
+      "owner": 6627564129,
+      "name": "mainn",
+      "dir": "/root/h/sandbox/6627564129_6c46f625a6a1f6ea",
+      "created": "2026-09-02T14:54:32.638073+00:00",
+      "enc_files": [
+        {
+          "key_id": "iu9yHWqgPsxVp6JIzAtqqw",
+          "enc_path": "/root/h/storage/encfiles/6627564129/1788360873_mainn_py.enc",
+          "filename": "mainn.py",
+          "rel_path": "mainn.py"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
       "gh_synced_at": 0,
       "approval_status": "pending"
     }
@@ -666,6 +686,14 @@
       "verdict": "SUSPICIOUS",
       "risk_score": 30,
       "summary": "File type 'img-20260902-wa0012.jpg' allow nahi hai."
+    },
+    {
+      "ts": "2026-09-02T14:54:33.208519+00:00",
+      "uid": "6627564129",
+      "filename": "mainn.py",
+      "verdict": "SAFE",
+      "risk_score": 25,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
     }
   ]
 }
