@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-01T17:32:10.383782+00:00",
-      "last_seen": "2026-09-02T16:36:04.425257+00:00",
+      "last_seen": "2026-09-02T17:02:13.496712+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 178
+        "logins": 184
       }
     },
     "8163090013": {
@@ -426,6 +426,56 @@
         "bots_uploaded": 0,
         "logins": 6
       }
+    },
+    "8676045734": {
+      "_id": 8676045734,
+      "name": "𝙓𝙔𝙋𝙃𝙀𝙍",
+      "username": "XYPHER_666",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-02T16:59:55.361447+00:00",
+      "last_seen": "2026-09-02T17:00:37.075853+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-02T17:00:16.033312+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 9
+      }
+    },
+    "8568047397": {
+      "_id": 8568047397,
+      "name": "Umino",
+      "username": "Uminoooo",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-02T17:01:17.598658+00:00",
+      "last_seen": "2026-09-02T17:01:41.986401+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-02T17:01:30.240890+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 1,
+        "logins": 4
+      }
     }
   },
   "bots": {
@@ -534,6 +584,30 @@
       "approval_status": "approved",
       "approval_reason": "",
       "last_started": "2026-09-02T16:35:51.678829+00:00",
+      "last_error": "",
+      "last_exit_code": null
+    },
+    "ce6003f31e74ad2d": {
+      "_id": "ce6003f31e74ad2d",
+      "owner": 8568047397,
+      "name": "king",
+      "dir": "/root/h/sandbox/8568047397_ce6003f31e74ad2d",
+      "created": "2026-09-02T17:01:42.356067+00:00",
+      "enc_files": [
+        {
+          "key_id": "920d1SbPSySDalBWfEz02A",
+          "enc_path": "/root/h/storage/encfiles/8568047397/1788368502_king_py.enc",
+          "filename": "king.py",
+          "rel_path": "king.py"
+        }
+      ],
+      "env": {},
+      "status": "running",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "approved",
+      "approval_reason": "",
+      "last_started": "2026-09-02T17:01:51.685277+00:00",
       "last_error": "",
       "last_exit_code": null
     }
@@ -786,6 +860,24 @@
       "uid": 5037400153,
       "action": "captcha_pass",
       "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-02T17:00:16.470687+00:00",
+      "uid": 8676045734,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-02T17:01:30.600910+00:00",
+      "uid": 8568047397,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-02T17:01:51.426389+00:00",
+      "uid": 8189708860,
+      "action": "approve_bot",
+      "detail": "bot=ce6003f31e74ad2d"
     }
   ],
   "coupons": {},
@@ -840,6 +932,14 @@
       "filename": "bot-1.py",
       "verdict": "SAFE",
       "risk_score": 15,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-02T17:01:42.571601+00:00",
+      "uid": "8568047397",
+      "filename": "king.py",
+      "verdict": "SAFE",
+      "risk_score": 20,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
     }
   ]
