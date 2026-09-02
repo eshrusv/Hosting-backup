@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-01T17:32:10.383782+00:00",
-      "last_seen": "2026-09-02T14:33:35.849424+00:00",
+      "last_seen": "2026-09-02T16:36:04.425257+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 170
+        "logins": 178
       }
     },
     "8163090013": {
@@ -478,10 +478,14 @@
         }
       ],
       "env": {},
-      "status": "pending_approval",
+      "status": "running",
       "cron": {},
       "gh_synced_at": 0,
-      "approval_status": "pending"
+      "approval_status": "approved",
+      "approval_reason": "",
+      "last_started": "2026-09-02T16:35:51.678829+00:00",
+      "last_error": "",
+      "last_exit_code": null
     },
     "76d530172f1b1914": {
       "_id": "76d530172f1b1914",
@@ -498,10 +502,15 @@
         }
       ],
       "env": {},
-      "status": "pending_approval",
+      "status": "crashed",
       "cron": {},
       "gh_synced_at": 0,
-      "approval_status": "pending"
+      "approval_status": "approved",
+      "approval_reason": "",
+      "last_started": "2026-09-02T16:35:44.328134+00:00",
+      "last_error": "Using cached idna-3.19-py3-none-any.whl (68 kB)\nUsing cached certifi-2026.7.22-py3-none-any.whl (136 kB)\nUsing cached h11-0.16.0-py3-none-any.whl (37 kB)\nUsing cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)\nInstalling collected packages: yt_dlp, typing_extensions, idna, h11, certifi, httpcore, anyio, httpx, python-telegram-bot\nSuccessfully installed anyio-4.14.2 certifi-2026.7.22 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.19 python-telegram-bot-22.8 typing_extensions-4.16.0 yt_dlp-2026.8.19\n[✓] auto-install done (rc=0)\nSet BOT_TOKEN in your environment or .env file.",
+      "last_exit_code": 1,
+      "last_exit_at": "2026-09-02T16:35:44.688127+00:00"
     }
   },
   "payments": [],
@@ -722,6 +731,18 @@
       "uid": 6708197897,
       "action": "captcha_pass",
       "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-02T16:35:40.669817+00:00",
+      "uid": 8189708860,
+      "action": "approve_bot",
+      "detail": "bot=76d530172f1b1914"
+    },
+    {
+      "ts": "2026-09-02T16:35:48.023354+00:00",
+      "uid": 8189708860,
+      "action": "approve_bot",
+      "detail": "bot=6c46f625a6a1f6ea"
     }
   ],
   "coupons": {},
