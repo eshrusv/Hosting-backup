@@ -334,7 +334,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-02T16:13:44.082320+00:00",
-      "last_seen": "2026-09-02T16:14:51.331440+00:00",
+      "last_seen": "2026-09-02T16:42:47.887161+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -349,7 +349,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 1,
-        "logins": 3
+        "logins": 12
       }
     },
     "6293418085": {
@@ -486,31 +486,6 @@
       "last_started": "2026-09-02T16:35:51.678829+00:00",
       "last_error": "",
       "last_exit_code": null
-    },
-    "76d530172f1b1914": {
-      "_id": "76d530172f1b1914",
-      "owner": 6708197897,
-      "name": "bot-1",
-      "dir": "/root/h/sandbox/6708197897_76d530172f1b1914",
-      "created": "2026-09-02T16:14:51.638746+00:00",
-      "enc_files": [
-        {
-          "key_id": "QHLXPRJUcfDqrOyg9hfWEg",
-          "enc_path": "/root/h/storage/encfiles/6708197897/1788365692_bot-1_py.enc",
-          "filename": "bot-1.py",
-          "rel_path": "bot-1.py"
-        }
-      ],
-      "env": {},
-      "status": "crashed",
-      "cron": {},
-      "gh_synced_at": 0,
-      "approval_status": "approved",
-      "approval_reason": "",
-      "last_started": "2026-09-02T16:35:44.328134+00:00",
-      "last_error": "Using cached idna-3.19-py3-none-any.whl (68 kB)\nUsing cached certifi-2026.7.22-py3-none-any.whl (136 kB)\nUsing cached h11-0.16.0-py3-none-any.whl (37 kB)\nUsing cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)\nInstalling collected packages: yt_dlp, typing_extensions, idna, h11, certifi, httpcore, anyio, httpx, python-telegram-bot\nSuccessfully installed anyio-4.14.2 certifi-2026.7.22 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.19 python-telegram-bot-22.8 typing_extensions-4.16.0 yt_dlp-2026.8.19\n[✓] auto-install done (rc=0)\nSet BOT_TOKEN in your environment or .env file.",
-      "last_exit_code": 1,
-      "last_exit_at": "2026-09-02T16:35:44.688127+00:00"
     }
   },
   "payments": [],
@@ -743,6 +718,12 @@
       "uid": 8189708860,
       "action": "approve_bot",
       "detail": "bot=6c46f625a6a1f6ea"
+    },
+    {
+      "ts": "2026-09-02T16:42:48.122719+00:00",
+      "uid": 6708197897,
+      "action": "bot_delete",
+      "detail": "bot=76d530172f1b1914"
     }
   ],
   "coupons": {},
