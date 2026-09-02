@@ -301,6 +301,31 @@
         "bots_uploaded": 0,
         "logins": 4
       }
+    },
+    "6627564129": {
+      "_id": 6627564129,
+      "name": "Luffy",
+      "username": "LuffyOnePeice0",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-02T14:52:50.691771+00:00",
+      "last_seen": "2026-09-02T14:53:12.989911+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-02T14:52:58.237650+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 1,
+        "logins": 4
+      }
     }
   },
   "bots": {
@@ -385,6 +410,31 @@
       "env": {},
       "status": "pending_approval",
       "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "pending"
+    },
+    "3ae0c74fd637dcdf": {
+      "_id": "3ae0c74fd637dcdf",
+      "owner": 6627564129,
+      "name": "IMG-20260902-WA0012",
+      "dir": "/root/h/sandbox/6627564129_3ae0c74fd637dcdf",
+      "created": "2026-09-02T14:53:14.050748+00:00",
+      "enc_files": [
+        {
+          "key_id": "uLNejdGWNUmxsFLM1ecIYQ",
+          "enc_path": "/root/h/storage/encfiles/6627564129/1788360794_IMG-20260902-WA0012_jpg.enc",
+          "filename": "IMG-20260902-WA0012.jpg",
+          "rel_path": "IMG-20260902-WA0012.jpg"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
+      "security_scan": {
+        "verdict": "SUSPICIOUS",
+        "risk_score": 30,
+        "summary": "File type 'img-20260902-wa0012.jpg' allow nahi hai."
+      },
       "gh_synced_at": 0,
       "approval_status": "pending"
     }
@@ -571,6 +621,12 @@
       "uid": 8740166317,
       "action": "captcha_pass",
       "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-02T14:52:58.658011+00:00",
+      "uid": 6627564129,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
     }
   ],
   "coupons": {},
@@ -602,6 +658,14 @@
       "verdict": "SAFE",
       "risk_score": 25,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-02T14:53:14.268294+00:00",
+      "uid": "6627564129",
+      "filename": "IMG-20260902-WA0012.jpg",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 30,
+      "summary": "File type 'img-20260902-wa0012.jpg' allow nahi hai."
     }
   ]
 }
