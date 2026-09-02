@@ -334,7 +334,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-02T16:13:44.082320+00:00",
-      "last_seen": "2026-09-02T16:13:44.082333+00:00",
+      "last_seen": "2026-09-02T16:14:51.331440+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -348,8 +348,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 0,
-        "logins": 1
+        "bots_uploaded": 1,
+        "logins": 3
       }
     }
   },
@@ -450,6 +450,26 @@
           "enc_path": "/root/h/storage/encfiles/6627564129/1788360873_mainn_py.enc",
           "filename": "mainn.py",
           "rel_path": "mainn.py"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "pending"
+    },
+    "76d530172f1b1914": {
+      "_id": "76d530172f1b1914",
+      "owner": 6708197897,
+      "name": "bot-1",
+      "dir": "/root/h/sandbox/6708197897_76d530172f1b1914",
+      "created": "2026-09-02T16:14:51.638746+00:00",
+      "enc_files": [
+        {
+          "key_id": "QHLXPRJUcfDqrOyg9hfWEg",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788365692_bot-1_py.enc",
+          "filename": "bot-1.py",
+          "rel_path": "bot-1.py"
         }
       ],
       "env": {},
@@ -723,6 +743,14 @@
       "filename": "mainn.py",
       "verdict": "SAFE",
       "risk_score": 25,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-02T16:14:51.848565+00:00",
+      "uid": "6708197897",
+      "filename": "bot-1.py",
+      "verdict": "SAFE",
+      "risk_score": 15,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
     }
   ]
