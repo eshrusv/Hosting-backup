@@ -476,6 +476,31 @@
         "bots_uploaded": 1,
         "logins": 4
       }
+    },
+    "7419222963": {
+      "_id": 7419222963,
+      "name": "Del",
+      "username": "Dev_kral",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-02T17:13:25.529708+00:00",
+      "last_seen": "2026-09-02T17:13:25.529724+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-02T17:13:36.683010+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 1
+      }
     }
   },
   "bots": {
@@ -878,6 +903,12 @@
       "uid": 8189708860,
       "action": "approve_bot",
       "detail": "bot=ce6003f31e74ad2d"
+    },
+    {
+      "ts": "2026-09-02T17:13:37.245059+00:00",
+      "uid": 7419222963,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
     }
   ],
   "coupons": {},
