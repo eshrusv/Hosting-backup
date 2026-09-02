@@ -309,7 +309,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-02T14:52:50.691771+00:00",
-      "last_seen": "2026-09-02T15:18:22.630463+00:00",
+      "last_seen": "2026-09-02T15:19:34.698895+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -324,7 +324,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 2,
-        "logins": 17
+        "logins": 35
       }
     }
   },
@@ -634,6 +634,18 @@
       "uid": 6627564129,
       "action": "bot_download",
       "detail": "bot=6c46f625a6a1f6ea"
+    },
+    {
+      "ts": "2026-09-02T15:18:38.004166+00:00",
+      "uid": 6627564129,
+      "action": "pip_install",
+      "detail": "bot=6c46f625a6a1f6ea ok=False"
+    },
+    {
+      "ts": "2026-09-02T15:19:35.250389+00:00",
+      "uid": 6627564129,
+      "action": "pip_install",
+      "detail": "bot=6c46f625a6a1f6ea ok=False"
     }
   ],
   "coupons": {},
