@@ -309,7 +309,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-02T14:52:50.691771+00:00",
-      "last_seen": "2026-09-03T11:12:57.874364+00:00",
+      "last_seen": "2026-09-03T11:45:50.118772+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -323,8 +323,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 4,
-        "logins": 54
+        "bots_uploaded": 5,
+        "logins": 56
       }
     },
     "6708197897": {
@@ -741,6 +741,26 @@
       "cron": {},
       "gh_synced_at": 0,
       "approval_status": "pending"
+    },
+    "8296c55abdd2ec86": {
+      "_id": "8296c55abdd2ec86",
+      "owner": 6627564129,
+      "name": "zzz",
+      "dir": "/root/h/sandbox/6627564129_8296c55abdd2ec86",
+      "created": "2026-09-03T11:45:51.016454+00:00",
+      "enc_files": [
+        {
+          "key_id": "XJ-G9UX_mWt0GNTyKLxUcw",
+          "enc_path": "/root/h/storage/encfiles/6627564129/1788435951_zzz_py.enc",
+          "filename": "zzz.py",
+          "rel_path": "zzz.py"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "pending"
     }
   },
   "payments": [],
@@ -1117,6 +1137,14 @@
       "ts": "2026-09-03T11:12:59.358330+00:00",
       "uid": "6627564129",
       "filename": "Maim.py",
+      "verdict": "SAFE",
+      "risk_score": 25,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-03T11:45:51.577094+00:00",
+      "uid": "6627564129",
+      "filename": "zzz.py",
       "verdict": "SAFE",
       "risk_score": 25,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
