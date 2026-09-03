@@ -309,7 +309,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-02T14:52:50.691771+00:00",
-      "last_seen": "2026-09-03T09:22:59.930848+00:00",
+      "last_seen": "2026-09-03T09:23:13.445618+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -323,8 +323,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 2,
-        "logins": 40
+        "bots_uploaded": 3,
+        "logins": 41
       }
     },
     "6708197897": {
@@ -745,6 +745,26 @@
       },
       "gh_synced_at": 0,
       "approval_status": "pending"
+    },
+    "d61c0223013e780c": {
+      "_id": "d61c0223013e780c",
+      "owner": 6627564129,
+      "name": "mainn",
+      "dir": "/root/h/sandbox/6627564129_d61c0223013e780c",
+      "created": "2026-09-03T09:23:14.307920+00:00",
+      "enc_files": [
+        {
+          "key_id": "EFcH0ZaAktWEh-krCwBd2A",
+          "enc_path": "/root/h/storage/encfiles/6627564129/1788427395_mainn_py.enc",
+          "filename": "mainn.py",
+          "rel_path": "mainn.py"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "pending"
     }
   },
   "payments": [],
@@ -1096,6 +1116,14 @@
       "verdict": "SUSPICIOUS",
       "risk_score": 30,
       "summary": "File type 'requirements.txt' allow nahi hai."
+    },
+    {
+      "ts": "2026-09-03T09:23:14.915850+00:00",
+      "uid": "6627564129",
+      "filename": "mainn.py",
+      "verdict": "SAFE",
+      "risk_score": 25,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
     }
   ]
 }
