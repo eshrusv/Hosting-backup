@@ -334,7 +334,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-02T16:13:44.082320+00:00",
-      "last_seen": "2026-09-02T16:42:47.887161+00:00",
+      "last_seen": "2026-09-03T04:21:44.060901+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -348,8 +348,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 1,
-        "logins": 12
+        "bots_uploaded": 2,
+        "logins": 15
       }
     },
     "6293418085": {
@@ -660,6 +660,91 @@
       "last_started": "2026-09-02T17:01:51.685277+00:00",
       "last_error": "",
       "last_exit_code": null
+    },
+    "024b704e516f3637": {
+      "_id": "024b704e516f3637",
+      "owner": 6708197897,
+      "name": "tgbot",
+      "dir": "/root/h/sandbox/6708197897_024b704e516f3637",
+      "created": "2026-09-03T04:21:44.698490+00:00",
+      "enc_files": [
+        {
+          "key_id": "COu8NM0g8v102ZeQXSRwMw",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409305_tgbot_handlers___init___py.enc",
+          "filename": "__init__.py",
+          "rel_path": "tgbot/handlers/__init__.py"
+        },
+        {
+          "key_id": "XXV6rOuHiSrjEXHjVo6I2w",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409306_tgbot_handlers_start_py.enc",
+          "filename": "start.py",
+          "rel_path": "tgbot/handlers/start.py"
+        },
+        {
+          "key_id": "EIiL9PTWaG9YauQ6hPEaLw",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409307_tgbot_handlers_admin_py.enc",
+          "filename": "admin.py",
+          "rel_path": "tgbot/handlers/admin.py"
+        },
+        {
+          "key_id": "KJGY8nbz69FW7wpaAao4pA",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409308_tgbot_handlers_download_py.enc",
+          "filename": "download.py",
+          "rel_path": "tgbot/handlers/download.py"
+        },
+        {
+          "key_id": "luzILBRioQ9NBc-TLj0ZHg",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409309_tgbot_requirements_txt.enc",
+          "filename": "requirements.txt",
+          "rel_path": "tgbot/requirements.txt"
+        },
+        {
+          "key_id": "2rHIr_gLCTrrMkxJJaFDZA",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409310_tgbot_README_md.enc",
+          "filename": "README.md",
+          "rel_path": "tgbot/README.md"
+        },
+        {
+          "key_id": "T1DfuzMhcesOUclVVw-jjw",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409310_tgbot_emojis_py.enc",
+          "filename": "emojis.py",
+          "rel_path": "tgbot/emojis.py"
+        },
+        {
+          "key_id": "RZBQWOwgt39WizmMDXQRHw",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409312_tgbot_database_py.enc",
+          "filename": "database.py",
+          "rel_path": "tgbot/database.py"
+        },
+        {
+          "key_id": "7NtxAbHQrvmMTd_XtqwTBQ",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409313_tgbot_downloader_py.enc",
+          "filename": "downloader.py",
+          "rel_path": "tgbot/downloader.py"
+        },
+        {
+          "key_id": "S7_ez7igstVietcP2gX-hg",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409314_tgbot_config_py.enc",
+          "filename": "config.py",
+          "rel_path": "tgbot/config.py"
+        },
+        {
+          "key_id": "yfah314tJUtg3MSoM9JZ7g",
+          "enc_path": "/root/h/storage/encfiles/6708197897/1788409315_tgbot_main_py.enc",
+          "filename": "main.py",
+          "rel_path": "tgbot/main.py"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
+      "security_scan": {
+        "verdict": "SUSPICIOUS",
+        "risk_score": 30,
+        "summary": "File type 'requirements.txt' allow nahi hai."
+      },
+      "gh_synced_at": 0,
+      "approval_status": "pending"
     }
   },
   "payments": [],
@@ -1003,6 +1088,14 @@
       "verdict": "SAFE",
       "risk_score": 20,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-03T04:21:44.935572+00:00",
+      "uid": "6708197897",
+      "filename": "requirements.txt",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 30,
+      "summary": "File type 'requirements.txt' allow nahi hai."
     }
   ]
 }
