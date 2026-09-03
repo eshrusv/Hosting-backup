@@ -509,7 +509,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-03T01:23:42.668373+00:00",
-      "last_seen": "2026-09-03T14:00:05.233661+00:00",
+      "last_seen": "2026-09-03T14:13:57.952217+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -523,8 +523,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 1,
-        "logins": 5
+        "bots_uploaded": 2,
+        "logins": 14
       }
     }
   },
@@ -767,29 +767,25 @@
       "gh_synced_at": 0,
       "approval_status": "pending"
     },
-    "5a538f875c591a5f": {
-      "_id": "5a538f875c591a5f",
+    "c6ad338e04582ec1": {
+      "_id": "c6ad338e04582ec1",
       "owner": 7200716402,
       "name": "happyboy",
-      "dir": "/root/h/sandbox/7200716402_5a538f875c591a5f",
-      "created": "2026-09-03T14:00:05.446637+00:00",
+      "dir": "/root/h/sandbox/7200716402_c6ad338e04582ec1",
+      "created": "2026-09-03T14:13:58.571614+00:00",
       "enc_files": [
         {
-          "key_id": "C8a7WbyBYIx5chg7glz_1A",
-          "enc_path": "/root/h/storage/encfiles/7200716402/1788444005_happyboy_py.enc",
+          "key_id": "7BLiU93bDwfUywJApO6Gow",
+          "enc_path": "/root/h/storage/encfiles/7200716402/1788444839_happyboy_py.enc",
           "filename": "happyboy.py",
           "rel_path": "happyboy.py"
         }
       ],
       "env": {},
-      "status": "running",
+      "status": "pending_approval",
       "cron": {},
       "gh_synced_at": 0,
-      "approval_status": "approved",
-      "approval_reason": "",
-      "last_started": "2026-09-03T14:06:19.574223+00:00",
-      "last_error": "",
-      "last_exit_code": null
+      "approval_status": "pending"
     }
   },
   "payments": [],
@@ -1094,6 +1090,12 @@
       "uid": 8189708860,
       "action": "approve_bot",
       "detail": "bot=5a538f875c591a5f"
+    },
+    {
+      "ts": "2026-09-03T14:13:41.822913+00:00",
+      "uid": 7200716402,
+      "action": "bot_delete",
+      "detail": "bot=5a538f875c591a5f"
     }
   ],
   "coupons": {},
@@ -1192,6 +1194,14 @@
     },
     {
       "ts": "2026-09-03T14:00:05.782029+00:00",
+      "uid": "7200716402",
+      "filename": "happyboy.py",
+      "verdict": "SAFE",
+      "risk_score": 25,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-03T14:13:58.935914+00:00",
       "uid": "7200716402",
       "filename": "happyboy.py",
       "verdict": "SAFE",
