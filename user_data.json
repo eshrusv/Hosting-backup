@@ -509,7 +509,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-03T01:23:42.668373+00:00",
-      "last_seen": "2026-09-04T09:47:25.487102+00:00",
+      "last_seen": "2026-09-04T14:57:39.627656+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -523,8 +523,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 3,
-        "logins": 25
+        "bots_uploaded": 4,
+        "logins": 31
       }
     }
   },
@@ -767,30 +767,6 @@
       "gh_synced_at": 0,
       "approval_status": "pending"
     },
-    "c6ad338e04582ec1": {
-      "_id": "c6ad338e04582ec1",
-      "owner": 7200716402,
-      "name": "happyboy",
-      "dir": "/root/h/sandbox/7200716402_c6ad338e04582ec1",
-      "created": "2026-09-03T14:13:58.571614+00:00",
-      "enc_files": [
-        {
-          "key_id": "7BLiU93bDwfUywJApO6Gow",
-          "enc_path": "/root/h/storage/encfiles/7200716402/1788444839_happyboy_py.enc",
-          "filename": "happyboy.py",
-          "rel_path": "happyboy.py"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "gh_synced_at": 0,
-      "approval_status": "approved",
-      "approval_reason": "",
-      "last_started": "2026-09-03T15:05:28.230198+00:00",
-      "last_error": "",
-      "last_exit_code": null
-    },
     "d17e854bfe49b0a1": {
       "_id": "d17e854bfe49b0a1",
       "owner": 7200716402,
@@ -814,6 +790,26 @@
       "last_started": "2026-09-04T10:35:35.802444+00:00",
       "last_error": "",
       "last_exit_code": null
+    },
+    "9aa0d90c8945da12": {
+      "_id": "9aa0d90c8945da12",
+      "owner": 7200716402,
+      "name": "botchk",
+      "dir": "/root/h/sandbox/7200716402_9aa0d90c8945da12",
+      "created": "2026-09-04T14:57:40.217998+00:00",
+      "enc_files": [
+        {
+          "key_id": "IvMGizz4LpEDg1YUhbyYEA",
+          "enc_path": "/root/h/storage/encfiles/7200716402/1788533860_botchk_py.enc",
+          "filename": "botchk.py",
+          "rel_path": "botchk.py"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "pending"
     }
   },
   "payments": [],
@@ -1142,6 +1138,12 @@
       "uid": 8189708860,
       "action": "approve_bot",
       "detail": "bot=d17e854bfe49b0a1"
+    },
+    {
+      "ts": "2026-09-04T14:57:33.404631+00:00",
+      "uid": 7200716402,
+      "action": "bot_delete",
+      "detail": "bot=c6ad338e04582ec1"
     }
   ],
   "coupons": {},
@@ -1258,6 +1260,14 @@
       "ts": "2026-09-04T09:47:26.317609+00:00",
       "uid": "7200716402",
       "filename": "c.py",
+      "verdict": "SAFE",
+      "risk_score": 15,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-04T14:57:40.509206+00:00",
+      "uid": "7200716402",
+      "filename": "botchk.py",
       "verdict": "SAFE",
       "risk_score": 15,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
