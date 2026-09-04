@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-01T17:32:10.383782+00:00",
-      "last_seen": "2026-09-04T15:36:57.770339+00:00",
+      "last_seen": "2026-09-04T15:40:37.843029+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 197
+        "logins": 198
       }
     },
     "8163090013": {
@@ -509,7 +509,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-03T01:23:42.668373+00:00",
-      "last_seen": "2026-09-04T15:36:26.792826+00:00",
+      "last_seen": "2026-09-04T15:39:14.692509+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -523,8 +523,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 5,
-        "logins": 46
+        "bots_uploaded": 6,
+        "logins": 47
       }
     }
   },
@@ -788,6 +788,30 @@
       "approval_status": "approved",
       "approval_reason": "",
       "last_started": "2026-09-04T10:35:35.802444+00:00",
+      "last_error": "",
+      "last_exit_code": null
+    },
+    "a04ab83208c8e3d6": {
+      "_id": "a04ab83208c8e3d6",
+      "owner": 7200716402,
+      "name": "JOYSTICK_RARE_ACC_GEN",
+      "dir": "/root/h/sandbox/7200716402_a04ab83208c8e3d6",
+      "created": "2026-09-04T15:39:15.229604+00:00",
+      "enc_files": [
+        {
+          "key_id": "-wE6STx2lYJ_CXjd5Ct2sw",
+          "enc_path": "/root/h/storage/encfiles/7200716402/1788536355_JOYSTICK_RARE_ACC_GEN_py.enc",
+          "filename": "JOYSTICK_RARE_ACC_GEN.py",
+          "rel_path": "JOYSTICK_RARE_ACC_GEN.py"
+        }
+      ],
+      "env": {},
+      "status": "running",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "approved",
+      "approval_reason": "",
+      "last_started": "2026-09-04T15:40:40.069581+00:00",
       "last_error": "",
       "last_exit_code": null
     }
@@ -1142,6 +1166,12 @@
       "uid": 7200716402,
       "action": "bot_delete",
       "detail": "bot=4ff1453012c5e311"
+    },
+    {
+      "ts": "2026-09-04T15:40:37.853007+00:00",
+      "uid": 8189708860,
+      "action": "approve_bot",
+      "detail": "bot=a04ab83208c8e3d6"
     }
   ],
   "coupons": {},
@@ -1272,6 +1302,14 @@
     },
     {
       "ts": "2026-09-04T15:17:44.830094+00:00",
+      "uid": "7200716402",
+      "filename": "JOYSTICK_RARE_ACC_GEN.py",
+      "verdict": "SAFE",
+      "risk_score": 15,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-04T15:39:15.521656+00:00",
       "uid": "7200716402",
       "filename": "JOYSTICK_RARE_ACC_GEN.py",
       "verdict": "SAFE",
