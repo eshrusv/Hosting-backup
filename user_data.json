@@ -509,7 +509,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-03T01:23:42.668373+00:00",
-      "last_seen": "2026-09-03T16:57:00.925452+00:00",
+      "last_seen": "2026-09-04T09:47:25.487102+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -523,8 +523,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 2,
-        "logins": 22
+        "bots_uploaded": 3,
+        "logins": 25
       }
     }
   },
@@ -790,6 +790,26 @@
       "last_started": "2026-09-03T15:05:28.230198+00:00",
       "last_error": "",
       "last_exit_code": null
+    },
+    "d17e854bfe49b0a1": {
+      "_id": "d17e854bfe49b0a1",
+      "owner": 7200716402,
+      "name": "c",
+      "dir": "/root/h/sandbox/7200716402_d17e854bfe49b0a1",
+      "created": "2026-09-04T09:47:26.023904+00:00",
+      "enc_files": [
+        {
+          "key_id": "fMJ-SCiNGFyh1pAF-F8JqQ",
+          "enc_path": "/root/h/storage/encfiles/7200716402/1788515246_c_py.enc",
+          "filename": "c.py",
+          "rel_path": "c.py"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "pending"
     }
   },
   "payments": [],
@@ -1222,6 +1242,14 @@
       "filename": "happyboy.py",
       "verdict": "SAFE",
       "risk_score": 25,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-04T09:47:26.317609+00:00",
+      "uid": "7200716402",
+      "filename": "c.py",
+      "verdict": "SAFE",
+      "risk_score": 15,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
     }
   ]
