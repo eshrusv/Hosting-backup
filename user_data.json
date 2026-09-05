@@ -509,7 +509,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-03T01:23:42.668373+00:00",
-      "last_seen": "2026-09-04T19:13:55.379046+00:00",
+      "last_seen": "2026-09-05T03:43:51.901775+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -524,7 +524,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 8,
-        "logins": 64
+        "logins": 70
       }
     },
     "7231519507": {
@@ -816,30 +816,6 @@
       "cron": {},
       "gh_synced_at": 0,
       "approval_status": "pending"
-    },
-    "0645ca5c229f1dd2": {
-      "_id": "0645ca5c229f1dd2",
-      "owner": 7200716402,
-      "name": "crttun",
-      "dir": "/root/h/sandbox/7200716402_0645ca5c229f1dd2",
-      "created": "2026-09-04T19:13:55.997589+00:00",
-      "enc_files": [
-        {
-          "key_id": "YJecOKw7IBztAYJzGsUauA",
-          "enc_path": "/root/h/storage/encfiles/7200716402/1788549236_crttun_py.enc",
-          "filename": "crttun.py",
-          "rel_path": "crttun.py"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "gh_synced_at": 0,
-      "approval_status": "approved",
-      "approval_reason": "",
-      "last_started": "2026-09-05T03:34:40.722205+00:00",
-      "last_error": "",
-      "last_exit_code": null
     }
   },
   "payments": [],
@@ -1233,6 +1209,12 @@
       "ts": "2026-09-05T03:34:38.380320+00:00",
       "uid": 8189708860,
       "action": "approve_bot",
+      "detail": "bot=0645ca5c229f1dd2"
+    },
+    {
+      "ts": "2026-09-05T03:43:52.174187+00:00",
+      "uid": 7200716402,
+      "action": "bot_delete",
       "detail": "bot=0645ca5c229f1dd2"
     }
   ],
