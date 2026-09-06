@@ -509,7 +509,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-03T01:23:42.668373+00:00",
-      "last_seen": "2026-09-05T13:45:34.585792+00:00",
+      "last_seen": "2026-09-06T16:51:00.844542+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -523,8 +523,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 9,
-        "logins": 74
+        "bots_uploaded": 10,
+        "logins": 75
       }
     },
     "7231519507": {
@@ -840,6 +840,26 @@
       "last_started": "2026-09-05T16:42:40.006919+00:00",
       "last_error": "",
       "last_exit_code": null
+    },
+    "0297ac77034f8fb0": {
+      "_id": "0297ac77034f8fb0",
+      "owner": 7200716402,
+      "name": "chk2",
+      "dir": "/root/h/sandbox/7200716402_0297ac77034f8fb0",
+      "created": "2026-09-06T16:51:01.524038+00:00",
+      "enc_files": [
+        {
+          "key_id": "JRrjZsB4z-s5iyf9TTwg4A",
+          "enc_path": "/root/h/storage/encfiles/7200716402/1788713461_chk2_py.enc",
+          "filename": "chk2.py",
+          "rel_path": "chk2.py"
+        }
+      ],
+      "env": {},
+      "status": "pending_approval",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "pending"
     }
   },
   "payments": [],
@@ -1412,6 +1432,14 @@
       "filename": "xboxhit.py",
       "verdict": "SAFE",
       "risk_score": 15,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-06T16:51:01.811371+00:00",
+      "uid": "7200716402",
+      "filename": "chk2.py",
+      "verdict": "SAFE",
+      "risk_score": 20,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
     }
   ]
