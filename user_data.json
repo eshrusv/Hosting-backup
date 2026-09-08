@@ -509,7 +509,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-03T01:23:42.668373+00:00",
-      "last_seen": "2026-09-06T16:51:00.844542+00:00",
+      "last_seen": "2026-09-08T12:53:37.292998+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -524,7 +524,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 10,
-        "logins": 75
+        "logins": 84
       }
     },
     "7231519507": {
@@ -816,55 +816,6 @@
       "cron": {},
       "gh_synced_at": 0,
       "approval_status": "pending"
-    },
-    "5732e48c5730bdc9": {
-      "_id": "5732e48c5730bdc9",
-      "owner": 7200716402,
-      "name": "xboxhit",
-      "dir": "/root/h/sandbox/7200716402_5732e48c5730bdc9",
-      "created": "2026-09-05T13:45:35.244217+00:00",
-      "enc_files": [
-        {
-          "key_id": "C2NfwoW_iOwi0Ykz16EL9g",
-          "enc_path": "/root/h/storage/encfiles/7200716402/1788615935_xboxhit_py.enc",
-          "filename": "xboxhit.py",
-          "rel_path": "xboxhit.py"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "gh_synced_at": 0,
-      "approval_status": "approved",
-      "approval_reason": "",
-      "last_started": "2026-09-05T16:42:40.006919+00:00",
-      "last_error": "",
-      "last_exit_code": null
-    },
-    "0297ac77034f8fb0": {
-      "_id": "0297ac77034f8fb0",
-      "owner": 7200716402,
-      "name": "chk2",
-      "dir": "/root/h/sandbox/7200716402_0297ac77034f8fb0",
-      "created": "2026-09-06T16:51:01.524038+00:00",
-      "enc_files": [
-        {
-          "key_id": "JRrjZsB4z-s5iyf9TTwg4A",
-          "enc_path": "/root/h/storage/encfiles/7200716402/1788713461_chk2_py.enc",
-          "filename": "chk2.py",
-          "rel_path": "chk2.py"
-        }
-      ],
-      "env": {},
-      "status": "crashed",
-      "cron": {},
-      "gh_synced_at": 0,
-      "approval_status": "approved",
-      "approval_reason": "",
-      "last_started": "2026-09-06T17:13:08.002347+00:00",
-      "last_error": "════════════════ START 2026-09-06T17:13:07.973067+00:00 ════════════════\n  File \"/root/h/sandbox/7200716402_0297ac77034f8fb0/chk2.py\", line 52\n    BOT_TOKEN = \"8887741864:AAF-UZddtKctClwuSv3reRoEfcvpP8XNBZo 7200716402\n                ^\nSyntaxError: unterminated string literal (detected at line 52)",
-      "last_exit_code": 1,
-      "last_exit_at": "2026-09-06T17:13:08.012687+00:00"
     }
   },
   "payments": [],
@@ -1283,6 +1234,18 @@
       "uid": 8189708860,
       "action": "set_rules",
       "detail": ""
+    },
+    {
+      "ts": "2026-09-08T12:53:25.094060+00:00",
+      "uid": 7200716402,
+      "action": "bot_delete",
+      "detail": "bot=0297ac77034f8fb0"
+    },
+    {
+      "ts": "2026-09-08T12:53:37.506364+00:00",
+      "uid": 7200716402,
+      "action": "bot_delete",
+      "detail": "bot=5732e48c5730bdc9"
     }
   ],
   "coupons": {},
