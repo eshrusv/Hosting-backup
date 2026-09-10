@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-01T17:32:10.383782+00:00",
-      "last_seen": "2026-09-08T12:00:30.314445+00:00",
+      "last_seen": "2026-09-10T14:23:29.406198+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 208
+        "logins": 209
       }
     },
     "8163090013": {
@@ -509,7 +509,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-09-03T01:23:42.668373+00:00",
-      "last_seen": "2026-09-08T12:53:37.292998+00:00",
+      "last_seen": "2026-09-10T14:24:32.407038+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -523,8 +523,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 10,
-        "logins": 84
+        "bots_uploaded": 11,
+        "logins": 88
       }
     },
     "7231519507": {
@@ -816,6 +816,31 @@
       "cron": {},
       "gh_synced_at": 0,
       "approval_status": "pending"
+    },
+    "b1b922b5244b6262": {
+      "_id": "b1b922b5244b6262",
+      "owner": 7200716402,
+      "name": "xboxhit",
+      "dir": "/root/h/sandbox/7200716402_b1b922b5244b6262",
+      "created": "2026-09-10T14:22:59.963066+00:00",
+      "enc_files": [
+        {
+          "key_id": "5M1xVRiP7UuUI5l6g3Ks7w",
+          "enc_path": "/root/h/storage/encfiles/7200716402/1789050180_xboxhit_py.enc",
+          "filename": "xboxhit.py",
+          "rel_path": "xboxhit.py"
+        }
+      ],
+      "env": {},
+      "status": "crashed",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "approved",
+      "approval_reason": "",
+      "last_started": "2026-09-10T14:23:31.802989+00:00",
+      "last_error": "Installing collected packages: asn1crypto, typing_extensions, pycryptodome, pycparser, idna, h11, certifi, httpcore, cffi, anyio, httpx, curl_cffi\nSuccessfully installed anyio-4.15.1 asn1crypto-1.5.1 certifi-2026.7.22 cffi-2.1.1 curl_cffi-0.16.3 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.19 pycparser-3.0 pycryptodome-3.23.0 typing_extensions-4.16.0\n[✓] auto-install done (rc=0)\nTraceback (most recent call last):\n  File \"/root/h/sandbox/7200716402_b1b922b5244b6262/xboxhit.py\", line 58, in <module>\n    bot = TeleBot(BOT_TOKEN.strip(), parse_mode='HTML')\n                  ^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'strip'",
+      "last_exit_code": 1,
+      "last_exit_at": "2026-09-10T14:23:32.109614+00:00"
     }
   },
   "payments": [],
@@ -1246,6 +1271,12 @@
       "uid": 7200716402,
       "action": "bot_delete",
       "detail": "bot=5732e48c5730bdc9"
+    },
+    {
+      "ts": "2026-09-10T14:23:29.416689+00:00",
+      "uid": 8189708860,
+      "action": "approve_bot",
+      "detail": "bot=b1b922b5244b6262"
     }
   ],
   "coupons": {},
@@ -1420,6 +1451,14 @@
       "filename": "chk2.py",
       "verdict": "SAFE",
       "risk_score": 20,
+      "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
+    },
+    {
+      "ts": "2026-09-10T14:23:00.366741+00:00",
+      "uid": "7200716402",
+      "filename": "xboxhit.py",
+      "verdict": "SAFE",
+      "risk_score": 15,
       "summary": "✅ File safe lagti hai. Koi major threat nahi mila."
     }
   ]
